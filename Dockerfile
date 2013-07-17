@@ -1,5 +1,6 @@
 from	ubuntu:12.10
 run	apt-get update
+run apt-get install -y build-essential
 run	apt-get install -y curl
 run	apt-get install -y git
 run	apt-get install -y mercurial
